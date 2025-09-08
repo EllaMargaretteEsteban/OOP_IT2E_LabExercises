@@ -1,0 +1,16 @@
+public class BookTester {
+    public static void main(String[] args) {
+    
+        Book book1 = new Book();
+        book1.displayInfo();
+
+        Book book2 = new Book("The Pragmatic Programmer", "Andrew Hunt", 2019);
+        book2.displayInfo();
+
+        Book book3 = new Book("Introduction of Algorithms", "Thomas Cormen", 2009);
+        book3.displayInfo();
+
+        Book book4 = new Book("Structur and Interpretation of Computer Programming", "Harold Abelson", 1996);
+        book4.displayInfo();
+    }
+}

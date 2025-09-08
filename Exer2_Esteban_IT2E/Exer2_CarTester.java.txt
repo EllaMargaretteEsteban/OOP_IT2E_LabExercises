@@ -1,0 +1,16 @@
+public class CarTester {
+    public static void main(String[] args) {
+
+        Car car1 = new Car();
+        car1.displayInfo();
+
+        Car car2 = new Car("Red", "ABC123", "CHS456789");
+        car2.displayInfo();
+
+        Car car3 = new Car("Blue", "XYZ987", "CHS987654");
+        car3.displayInfo();
+
+        Car car4 = new Car("Black", "LMN456", "CHS123321");
+        car4.displayInfo();
+    }
+}

@@ -1,0 +1,25 @@
+public class Car {
+
+    private String color;
+    private String plateNo;
+    private String chassisNo;
+
+    public Car() {
+        this.color = "No color";
+        this.plateNo = "No Plate Number";
+        this.chassisNo = "No Chassis No Yet!";
+    }
+
+    public Car(String color, String plateNo, String chassisNo) {
+        this.color = color;
+        this.plateNo = plateNo;
+        this.chassisNo = chassisNo;
+    }
+
+    public void displayInfo() {
+        System.out.println("Color: " + this.color);
+        System.out.println("Plate No: " + this.plateNo);
+        System.out.println("Chassis No: " + this.chassisNo);
+        System.out.println("-------------------");
+    }
+}
